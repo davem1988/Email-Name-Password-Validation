@@ -18,6 +18,7 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
 
 ## Project Structure
 
+├── index.html # Main HTML file for the form ├── style.css # CSS file for styling ├── script.js # JavaScript file for input validation ├── .gitignore # Git ignore file └── README.md # Project documentation
 
 ## Validation Details
 
@@ -39,7 +40,7 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
   - 1 lowercase letter
   - 1 number
   - 1 special character
-  
+
 - Displays an error if the format is incorrect.
 
 ## How to Run the Project
