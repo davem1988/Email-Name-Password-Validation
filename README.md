@@ -48,7 +48,7 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
 
 
 2. **Navigate to the project directory**:
-
+    ```bash
     cd your-repo-name
 
 3. **Open the index.html file in your web browser**:
