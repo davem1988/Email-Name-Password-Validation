@@ -1,7 +1,0 @@
-.container:hover .card {
-    transform: rotateY(180deg); /* Flip the card to the back */
-}
-
-.container:hover .front {
-    transform: rotateY(0deg); /* Flip the front to be visible */
-}
