@@ -174,7 +174,7 @@ input {
 #name.valid:before,
 #password.valid:before, 
 .input-wrapper.valid:before {
-    background: url(valid.png);
+    background: url(images/valid.png);
     z-index: 1000;
     display: flex;
     flex-direction: column;
@@ -183,7 +183,7 @@ input {
 }
 
 .input-wrapper.invalid:before {
-    background: url(invalid.png);
+    background: url(images/invalid.png);
     z-index: 1000;
     display: flex;
     flex-direction: column;
