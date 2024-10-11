@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Email and Name Validator</title>
+</head>
+<body>
+    <div class="container">
+        <div id="snackbar" >Some text some message..</div>
+        <div class="card" id="card">
+            <form action="#" id="form">
+                <div class="input-container">
+                    <h3>Email Validation Form</h3>
+                    <div class="input-box">
+                        <div class="input-wrapper wrapper1">
+                            <input type="text" id="email" placeholder="Enter Email Address" onkeyup="EmailValidation()" onchange="EmailValidation()">
+                            <span id="text_email"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <h3>Full Name Validation Form</h3>
+                    <div class="input-box1">
+                        <div class="input-wrapper wrapper2">
+                            <input type="text" id="name" placeholder="Enter Full Name" onkeyup="NameValidation()" onchange="NameValidation()">
+                            <span id="text_name"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <button class="button" id="form-submit" type="submit" form="form">Send</button>
+        </div>
+        <div class="front" id="front">
+            <form action="#" id="form2">
+                <div class="input-container">
+                    <h3>Password Validation Form</h3>
+                    <div class="input-box1">
+                        <div class="input-wrapper ">
+                            <input type="password" id="password" placeholder="Enter Password" onkeyup="PasswordValidation()">
+                            <span id="text_password"></span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <button class="button2" id="form-submit2" type="submit" form="form2">Send</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
