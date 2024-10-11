@@ -44,7 +44,7 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/davem1988/Email-Name-Password-Validation.git
 
 
 2. **Navigate to the project directory**:
