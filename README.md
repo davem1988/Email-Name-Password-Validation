@@ -18,8 +18,6 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
 
 ## Project Structure
 
-## Project Structure
-
 . ├── index.html # Main HTML file for the form ├── style.css # CSS file for styling ├── script.js # JavaScript file for input validation ├── images/ # Folder containing image assets ├── .gitignore # Git ignore file └── README.md # Project documentation
 
 ## Validation Details
