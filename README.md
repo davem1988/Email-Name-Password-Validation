@@ -29,6 +29,7 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
 ### Name Validation
 
 - The name field checks for proper formatting, ensuring only alphabetic characters are entered.
+- Displays an error if the format is incorrect.
 
 ### Password Validation
 
@@ -38,6 +39,8 @@ This project is a simple HTML, CSS, and JavaScript-based validation form that va
   - 1 lowercase letter
   - 1 number
   - 1 special character
+  
+- Displays an error if the format is incorrect.
 
 ## How to Run the Project
 
